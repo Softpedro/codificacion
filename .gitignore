@@ -1,0 +1,41 @@
+# Node.js
+node_modules/
+pnpm-lock.yaml
+
+# Build output
+dist/
+out/
+.build/
+.cache/
+storybook-static/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+*.swp
+
+# Jest and Testing
+coverage/
+*.snap
+
+# Storybook
+.storybook-cache/
